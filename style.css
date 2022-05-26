@@ -1,0 +1,57 @@
+html {
+   font-family: 'Roboto', sans-serif;
+   box-sizing: border-box;
+   font-size: 16px;
+   font-weight: normal;
+   margin: 0;
+   padding: 0; }
+
+input,
+textarea {
+   width: 100%;
+   padding: 5px;
+   margin: 0;
+   border-radius: 2px;
+   border: 1px solid #ccc; }
+
+body {
+   margin: 0;
+   padding: 0; }
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit; }
+
+.crud {
+   margin-bottom: 20px; }
+
+.container {
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto; }
+
+@media (min-width: 768px) {
+   .container {
+     width: 750px; } }
+@media (min-width: 992px) {
+   .container {
+     width: 970px; } }
+@media (min-width: 1200px) {
+   .container {
+     width: 1170px; } }
+.kodilla-heading--main {
+   margin: 20px auto;
+   text-align: center;
+   font-size: 30px;
+   font-weight: 400; }
+
+.datatable__row {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: flex-start;
+   align-items: stretch;
+   border: 1px solid #ccc;
+   border-bottom: none;
+   margin: 0; }
